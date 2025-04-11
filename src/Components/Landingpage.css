@@ -1,0 +1,102 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(145deg, #eef2f3, #ffffff);
+    color: #333;
+    min-height: 100vh;
+  }
+  
+  /* Container Layout */
+  .landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .landing-header {
+    background-color: #ffffff;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .landing-header h1 {
+    font-size: 2.2rem;
+    color: #0b5ed7;
+    font-weight: 700;
+  }
+  
+  /* Main Section */
+  .landing-main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .landing-main h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #111;
+  }
+  
+  .landing-main p {
+    font-size: 1.05rem;
+    max-width: 600px;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  /* Buttons */
+  .button-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 0.75rem 1.8rem;
+    border-radius: 12px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 14px rgba(0, 123, 255, 0.2);
+  }
+  
+  .btn:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 123, 255, 0.3);
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Footer */
+  .landing-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
